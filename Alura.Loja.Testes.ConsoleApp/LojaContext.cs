@@ -30,7 +30,7 @@ namespace Alura.Loja.Testes.ConsoleApp
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=LojaDB;User ID=sa;Password=b4AO9t2p6HAw");
+                optionsBuilder.UseSqlServer(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=LojaDB;User ID=sa;Password=");
         }
     }
 }
